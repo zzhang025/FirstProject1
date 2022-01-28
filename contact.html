@@ -44,7 +44,7 @@
     <!-- ======= Hero Section ======= -->
     <main id="hero">
         <h1 class="text-center mb-3">Contact Me</h1>
-        <form action="#">
+        <form name="todo-ContactForm" method="post" data-netlify-recaptcha="true" data-netlify="true">
             <div class="row mb-1">
                 <div class="col">
                     <label class="form-label">First Name</label>
@@ -83,6 +83,7 @@
                         aria-label="Message" required></textarea>
                 </div>
             </div>
+            <div data-netlify-recaptcha="true"></div>
             <button type="submit" class="btn btn-primary mt-2">Submit</button>
         </form>
     </main>
